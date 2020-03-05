@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/EditTextPrimary"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/question"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:layout_height ="50dp"
+        android:layout_width="match_parent"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViewPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:layout_marginTop="40dp"
+        android:layout_weight="0"
+        android:background="#FFF9C4"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ButtonPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/send"
+        android:onClick="sendQuestion"
+         />
+</LinearLayout>

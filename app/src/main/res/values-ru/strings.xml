@@ -1,0 +1,5 @@
+<resources>
+    <string name="send">Отправить</string>
+    <string name="answer">Ответ</string>
+    <string name="question">Вопрос</string>
+</resources>

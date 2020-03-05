@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/EditTextPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="@string/question"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextViewPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0"
+            android:autofillHints=""
+            android:background="#FFF9C4"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ButtonPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="sendQuestion"
+        android:text="@string/send" />
+</LinearLayout>
